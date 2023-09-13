@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RickAndMortyQ10",
-    "slug": "RickAndMortyQ10",
+    "slug": "rickandmortyq10",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mahg24.rickandmortyq10"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "81de8a23-9287-4a6c-b8b8-29b959eb3b0f"
+      }
+    },
+    "owner": "mahg24"
   }
 }
